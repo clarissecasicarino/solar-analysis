@@ -3,28 +3,26 @@
 Welcome to **Solar Synergy's** project repository!  
 This repo contains code for analyzing the disparities in renewable solar energy adoption in the world and how we can use these insights to provide affordable solar energy to underserved regions.
 
----
-
 ## Project Overview  
 - **Core Interest** 
 Improving solar energy adoption in underdeveloped or low-access regions:
 * Regions with high solar potential but low deployment due to cost or infrastructure barriers.
 * Goal: Use data-driven insights to design low-cost, scalable solar solutions.
 
----
 ## Repository Structure  
+```text
 solar-analysis/
 ├── data/
-│   └── dataset1.csv
-    └── dataset2.csv
-    └── dataset3.csv
-└── outputs/
-    └── output.csv
+│   ├── dataset1.csv
+│   ├── dataset2.csv
+│   └── dataset3.csv
+├── outputs/
+│   └── output.csv
 ├── analysis.ipynb
 ├── README.md
-├── requirements.txt
+└── requirements.txt
+```
 
----
 ## Datasets
 Here are the datasets used for this project:
 * #01 renewable-share-energy.csv: Records the share of total energy consumption that comes from renewable sources (solar, wind, hydro, bioenergy, etc.) for each country from 1965 to 2022.
@@ -37,7 +35,7 @@ Here are the datasets used for this project:
 * #15 share-electricity-solar.csv: Indicates the percentage of a country’s electricity generation that comes specifically from solar power.
 * Inequality in Education (Around the World): Differentiates low-income versus high-income countries according to their Human Development Index (HDI) rank.
 
----
+
 ### Local Setup
 git clone solar-analysis
 cd solar-analysis
@@ -45,17 +43,17 @@ pip install -r requirements.txt
 jupyter notebook analysis.ipynb
 
 ### GitHub Branch Strategy:
-main                  # 👈 Protected - stable version
-├── dev               # 👈 Active development branch
-├── name-of-feature   # 👈 Experimental features
-
+```text
+main                   
+├── dev
+```
 
 ### Daily Workflow:
-# Start work (everyone does this)
+**Start work (everyone does this)**
 git checkout dev
 git pull origin dev
 
-# Push progress
+**Push progress**
 git add .
 git commit -m "Progress on analysis"  
 git push origin dev
