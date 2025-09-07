@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+geopandas
+folium
+plotly
+scikit-learn
+termcolor
+scipy
+ipython
