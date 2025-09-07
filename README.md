@@ -37,10 +37,12 @@ Here are the datasets used for this project:
 
 
 ### Local Setup
+```
 git clone solar-analysis
 cd solar-analysis
 pip install -r requirements.txt
 jupyter notebook analysis.ipynb
+```
 
 ### GitHub Branch Strategy:
 ```text
