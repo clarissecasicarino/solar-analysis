@@ -46,8 +46,8 @@ jupyter notebook analysis.ipynb
 
 ### GitHub Branch Strategy:
 ```text
-main                   
-├── dev
+main           # 👈 Protected - stable version
+├── dev        # 👈 Active development branch  
 ```
 
 ### Daily Workflow:
