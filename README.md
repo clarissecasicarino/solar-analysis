@@ -1,10 +1,11 @@
 # 🌞 Solar Synergy: Solar Data Analysis
 
 Welcome to **Solar Synergy's** project repository!  
+
 This repo contains code for analyzing the disparities in renewable solar energy adoption in the world and how we can use these insights to provide affordable solar energy to underserved regions.
 
 ## Project Overview  
-- **Core Interest** 
+**Core Interest** 
 Improving solar energy adoption in underdeveloped or low-access regions:
 * Regions with high solar potential but low deployment due to cost or infrastructure barriers.
 * Goal: Use data-driven insights to design low-cost, scalable solar solutions.
@@ -50,10 +51,14 @@ main
 
 ### Daily Workflow:
 **Start work (everyone does this)**
+```
 git checkout dev
 git pull origin dev
+```
 
 **Push progress**
+```
 git add .
 git commit -m "Progress on analysis"  
 git push origin dev
+```
